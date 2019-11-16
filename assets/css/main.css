@@ -2552,11 +2552,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #3e4094;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #3e4094;
 				}
 
 /* Image */
@@ -3237,30 +3237,65 @@ input, select, textarea {
 
 		.wrapper.alt {
 			background-color: #261c3e;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.style1 {
 			background-color: #5e42a6;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.style1-alt {
 			background-color: #493382;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.style2 {
 			background-color: #5052b5;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.style2-alt {
 			background-color: #3e4094;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #25279e;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #25279e;
+			background-attachment: fixed;
+			background-image: url(images/intro.svg);
+			background-position: top right;
+			background-repeat: no-repeat;
+		   background-size: 100% 100%;
 		}
 
 		.wrapper.fullscreen {
@@ -3466,6 +3501,7 @@ input, select, textarea {
 
 	#sidebar + #wrapper {
 		margin-left: 18em;
+		
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3493,6 +3529,7 @@ input, select, textarea {
 
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
+		
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3535,6 +3572,11 @@ input, select, textarea {
 		top: 0;
 		width: 18em;
 		z-index: 10000;
+		background-attachment: fixed;
+		background-image: url(images/intro.svg);
+		background-position: top right;
+		background-repeat: no-repeat;
+	   background-size: 100% 100%;
 	}
 
 		#sidebar > .inner {
@@ -3907,3 +3949,4 @@ input, select, textarea {
 			}
 
 		}
+		
