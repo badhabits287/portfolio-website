@@ -4,8 +4,20 @@
 		line
 		{
 			stroke: rgba(255, 6, 6, 0.15);
-			stroke-width: px;
+			stroke-width: 2px;
+			stroke-dasharray: 100px;
+            animation: dash 5s linear alternate infinite;
 		}
+		.path {
+ 
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+		
     ]]></style>
 
 	<line x1="1100" y1="500" x2="-1000" y2="250" />
@@ -20,5 +32,6 @@
 	<line x1="1150" y1="0" x2="150" y2="500" />
 	<line x1="700" y1="0" x2="-300" y2="500" />
 	<line x1="150" y1="0" x2="-850" y2="500" />
-
+    
+	
 </svg>
